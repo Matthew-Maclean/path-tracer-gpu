@@ -1,0 +1,16 @@
+[package]
+name = "path-tracer-gpu"
+version = "0.1.0"
+edition = "2018"
+resolver = "2"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wgpu = "0.10"
+rand = "0.8"
+clap = "2"
+json = "0.12"
+image = "0.23"
+bytemuck = "1"
+pollster = "0.2"
